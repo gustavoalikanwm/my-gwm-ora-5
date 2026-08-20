@@ -22,3 +22,13 @@ fleet:
   - name: "HEROIC ACE"
     mmsi: 352915000
     imo: 9252216
+
+  # Viking Carina: informado pelo Gustavo com destino Paranagua, ETA
+  # 10/09/2026. IMO/MMSI/tipo confirmados em multiplas fontes publicas
+  # (VesselFinder, MyShipTracking, VesselTracker, MarineTraffic) - Vehicles
+  # Carrier, bandeira Marshall Islands, operado por Gram Car Carriers.
+  # Destino/ETA sao informativos (nao lidos pelo codigo hoje) - a posicao
+  # real vem do AIS.
+  - name: "VIKING CARINA"
+    mmsi: 538012091
+    imo: 9338709
