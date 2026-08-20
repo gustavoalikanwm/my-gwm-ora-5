@@ -1,3 +1,4 @@
 websockets>=13,<14
 PyYAML>=6,<7
 pytest>=8,<9
+playwright>=1.47,<2

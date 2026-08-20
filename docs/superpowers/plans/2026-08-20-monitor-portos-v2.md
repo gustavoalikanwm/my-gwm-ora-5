@@ -632,6 +632,7 @@ playwright>=1.47,<2
 ```python
 import json
 import sys
+from datetime import date
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
@@ -643,14 +644,19 @@ TEV_PAGE_URL = (
     "?titulo=Terminal+de+Ve%C3%ADculos+(TEV)&unidade=tecon-santos"
     "&lista=lista-de-atracacao&atracadouro=TEV"
 )
-TEV_API_URL = (
-    "https://santosbrasil.com.br/v2021/lista-de-atracacao/pesquisa"
-    "?unidade=tecon-santos&lista=lista-de-atracacao&atracadouro=TEV"
-    "&pesquisa=&dataInicial=&dataFinal=&statusNavio="
-)
+def _build_api_url(data_inicial: str) -> str:
+    return (
+        "https://santosbrasil.com.br/v2021/lista-de-atracacao/pesquisa"
+        "?unidade=tecon-santos&lista=lista-de-atracacao&atracadouro=TEV"
+        f"&pesquisa=&dataInicial={data_inicial}&dataFinal=&statusNavio="
+    )
 
 
 def fetch_port_schedule_raw() -> dict:
+    # Sem dataInicial o endpoint devolve um dump historico antigo (visto em
+    # 2026-08-20: entradas de 2023) em vez da programacao futura - a pagina
+    # real preenche esse filtro via JS antes de chamar o endpoint.
+    api_url = _build_api_url(date.today().isoformat())
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch()
         page = browser.new_page()
@@ -660,7 +666,7 @@ def fetch_port_schedule_raw() -> dict:
             (url) => fetch(url, {headers: {"X-Requested-With": "XMLHttpRequest"}})
                 .then((r) => r.text())
             """,
-            TEV_API_URL,
+            api_url,
         )
         browser.close()
         return json.loads(raw_text)
@@ -674,7 +680,9 @@ def main() -> None:
         return
 
     entries = process_port_response(raw_json)
-    Path("data/port_schedule.json").write_text(
+    output_path = Path("data/port_schedule.json")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(
         json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print(f"{len(entries)} escala(s) de car carrier gravada(s) em data/port_schedule.json")
