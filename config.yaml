@@ -1,0 +1,13 @@
+# Data estimada de chegada informada pela GWM (03/07/2026 + 120 dias).
+target_eta: "2026-10-31"
+
+# Frota curada de navios porta-carros (RoRo) conhecidos na rota China<->Brasil.
+# Comeca vazia de proposito - nao inventar MMSI. Para adicionar um navio real:
+#   1. Descubra o nome do navio (noticia, app da GWM, etc).
+#   2. Busque o nome no Equasis (https://www.equasis.org) para confirmar
+#      IMO/MMSI e que o tipo e "Vehicles Carrier".
+#   3. Adicione um item abaixo:
+#        - name: "NOME DO NAVIO"
+#          mmsi: 123456789
+#          imo: 9876543
+fleet: []
