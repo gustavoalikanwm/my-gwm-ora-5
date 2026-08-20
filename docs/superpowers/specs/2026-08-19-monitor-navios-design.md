@@ -3,6 +3,19 @@
 Data: 2026-08-19
 Status: aprovado para implementação
 
+> **Nota de fasamento (2026-08-19):** pesquisa das páginas de programação
+> portuária brasileira (PortosRio/Itaguaí, Porto de Santos, Porto Itapoá)
+> mostrou que a maioria carrega dados via JS/AJAX ou linka para sistemas
+> externos (SILOG) — não são HTML estático simples de raspar com
+> `requests`+parser como assumido inicialmente. Decisão: entregar em duas
+> fases. **v1** (este plano de implementação) = só a fonte AIS
+> (`ais_collector.py` + painel + workflow), sem `port_collector.py`. **v2**
+> (spec e plano próprios, depois) = coletor de programação portuária,
+> começando por validar 1 porto real (provavelmente exigindo Playwright pela
+> natureza JS dos sites). O resto deste documento descreve o design híbrido
+> completo (arquitetura-alvo); a seção "Componentes" e o plano de
+> implementação em `docs/superpowers/plans/` cobrem apenas o recorte v1.
+
 ## Contexto e objetivo
 
 O autor comprou um GWM ORA 05 (pré-reserva pague), com estimativa de entrega de
