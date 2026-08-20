@@ -1,0 +1,28 @@
+{
+  "MessageType": "ShipStaticData",
+  "Message": {
+    "ShipStaticData": {
+      "MessageID": 5,
+      "RepeatIndicator": 0,
+      "UserID": 257069200,
+      "Valid": true,
+      "AisVersion": 2,
+      "ImoNumber": 9353333,
+      "CallSign": "LBHF",
+      "Name": "TEST VESSEL",
+      "Type": 70,
+      "Dimension": {"A": 20, "B": 27, "C": 7, "D": 7},
+      "FixType": 1,
+      "Eta": {"Month": 10, "Day": 31, "Hour": 6, "Minute": 0},
+      "MaximumStaticDraught": 4.5,
+      "Destination": "BR SSZ",
+      "Dte": false,
+      "Spare": false
+    }
+  },
+  "MetaData": {
+    "MMSI": 257069200,
+    "ShipName": "TEST VESSEL",
+    "time_utc": "2026-08-19 18:22:32.318353 +0000 UTC"
+  }
+}

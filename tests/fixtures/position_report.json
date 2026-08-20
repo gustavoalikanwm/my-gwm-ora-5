@@ -1,0 +1,31 @@
+{
+  "MessageType": "PositionReport",
+  "Message": {
+    "PositionReport": {
+      "MessageID": 1,
+      "RepeatIndicator": 0,
+      "UserID": 245473000,
+      "Valid": true,
+      "NavigationalStatus": 7,
+      "RateOfTurn": 0,
+      "Sog": 12.3,
+      "PositionAccuracy": true,
+      "Longitude": 3.590816666666667,
+      "Latitude": 51.44458833333333,
+      "Cog": 45.2,
+      "TrueHeading": 17,
+      "Timestamp": 12,
+      "SpecialManoeuvreIndicator": 0,
+      "Spare": 0,
+      "Raim": true,
+      "CommunicationState": 59916
+    }
+  },
+  "MetaData": {
+    "MMSI": 245473000,
+    "ShipName": "TEST VESSEL",
+    "latitude": 51.44458833333333,
+    "longitude": 3.590816666666667,
+    "time_utc": "2026-08-19 18:22:32.318353 +0000 UTC"
+  }
+}
