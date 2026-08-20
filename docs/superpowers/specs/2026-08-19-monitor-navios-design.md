@@ -101,7 +101,7 @@ Git (cada commit é um snapshot histórico dos arquivos `.jsonl`).
 | `config.yaml` | Data estimada de chegada (31/10/2026); lista curada de frota RoRo (nome, MMSI, IMO); URLs das páginas de programação dos portos monitorados |
 | `collectors/ais_collector.py` | Coleta de posição AIS via aisstream.io, filtrado pela frota curada |
 | `collectors/port_collector.py` | Coleta da programação portuária pública, filtrada por carga RoRo/veículo + origem China |
-| `dashboard/build_dashboard.py` | Gera `docs/index.html` a partir dos dados coletados; cada navio da frota é linkado para sua página pública no MarineTraffic (`marinetraffic.com/.../mmsi:<mmsi>`) como atalho de consulta manual — apenas um link de saída, sem scraping do MarineTraffic |
+| `dashboard/build_dashboard.py` | Gera `docs/index.html` a partir dos dados coletados; cada navio da frota é linkado para sua página pública no VesselFinder (`vesselfinder.com/vessels/details/<imo>`) como atalho de consulta manual — apenas um link de saída, sem scraping. (Tentativa inicial usou MarineTraffic por MMSI, mas a URL deles exige um `shipid` interno que não temos — sem ele cai na home, não no navio; VesselFinder aceita IMO direto e funciona.) |
 | `.github/workflows/monitor.yml` | Cron + `workflow_dispatch`; roda os coletores, gera o painel, commita e faz push |
 | `tests/` | Testes unitários dos parsers e do gerador de painel (ver seção Testes) |
 

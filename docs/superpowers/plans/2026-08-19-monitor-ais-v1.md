@@ -628,6 +628,16 @@ def render_dashboard(config: dict, sightings: list[dict], now: datetime) -> str:
 Run: `cd C:\repos\my-gwm-ora-5 && python -m pytest tests/test_dashboard_render.py -v`
 Expected: PASS (5 testes)
 
+> **Nota pós-execução (2026-08-20):** o link acima usava MarineTraffic por
+> MMSI (`.../mmsi:<mmsi>`). Testado ao vivo, isso sempre cai na home do
+> MarineTraffic — a URL de detalhe deles exige um `shipid` interno que não
+> temos, MMSI/IMO sozinhos não bastam. Corrigido pra VesselFinder por IMO
+> (`vesselfinder.com/vessels/details/<imo>`), que aceita IMO direto e foi
+> validado nos dois navios reais da frota. Também foi adicionado CSS
+> (tema escuro, cards, tabela estilizada) — o v1 original só tinha HTML
+> sem estilo. Ver `monitor/dashboard_render.py` e
+> `tests/test_dashboard_render.py` atuais para o código corrigido.
+
 - [ ] **Step 5: Implementar `monitor/build_dashboard.py` (CLI, sem teste automatizado)**
 
 ```python

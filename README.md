@@ -7,7 +7,7 @@ exato nao e possivel, ver `docs/superpowers/specs/`).
 
 Painel publicado via GitHub Pages a partir de `docs/index.html`, atualizado
 a cada 6h por um workflow do GitHub Actions. Cada navio da frota curada tem
-um link direto para a pagina publica dele no MarineTraffic (atalho de
+um link direto para a pagina publica dele no VesselFinder (atalho de
 consulta manual, sem raspagem).
 
 ## Como adicionar um navio a frota curada
