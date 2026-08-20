@@ -534,6 +534,12 @@ def test_render_dashboard_flags_vessel_without_recent_position():
     assert "sem posição recente" in html
 
 
+def test_render_dashboard_links_each_vessel_to_marinetraffic():
+    html = render_dashboard(CONFIG, SIGHTINGS, NOW)
+    assert 'href="https://www.marinetraffic.com/en/ais/details/ships/mmsi:111"' in html
+    assert 'href="https://www.marinetraffic.com/en/ais/details/ships/mmsi:222"' in html
+
+
 def test_render_dashboard_handles_empty_fleet():
     html = render_dashboard({"target_eta": "2026-10-31", "fleet": []}, [], NOW)
     assert "frota curada vazia" in html
@@ -566,16 +572,22 @@ def _latest_positions(sightings: list[dict]) -> dict[int, dict]:
     return latest
 
 
+def _marinetraffic_link(vessel: dict) -> str:
+    url = f"https://www.marinetraffic.com/en/ais/details/ships/mmsi:{vessel['mmsi']}"
+    return f'<a href="{url}" target="_blank" rel="noopener">{vessel["name"]}</a>'
+
+
 def _fleet_row(vessel: dict, latest_by_mmsi: dict[int, dict]) -> str:
+    name_cell = _marinetraffic_link(vessel)
     position = latest_by_mmsi.get(vessel["mmsi"])
     if position is None:
         return (
-            f"<tr><td>{vessel['name']}</td>"
+            f"<tr><td>{name_cell}</td>"
             f"<td colspan=\"2\">sem posição recente</td></tr>"
         )
     coords = f"{position['latitude']:.3f}, {position['longitude']:.3f}"
     return (
-        f"<tr><td>{vessel['name']}</td><td>{coords}</td>"
+        f"<tr><td>{name_cell}</td><td>{coords}</td>"
         f"<td>{position['timestamp_utc']}</td></tr>"
     )
 
@@ -614,7 +626,7 @@ def render_dashboard(config: dict, sightings: list[dict], now: datetime) -> str:
 - [ ] **Step 4: Rodar de novo**
 
 Run: `cd C:\repos\my-gwm-ora-5 && python -m pytest tests/test_dashboard_render.py -v`
-Expected: PASS (4 testes)
+Expected: PASS (5 testes)
 
 - [ ] **Step 5: Implementar `monitor/build_dashboard.py` (CLI, sem teste automatizado)**
 
