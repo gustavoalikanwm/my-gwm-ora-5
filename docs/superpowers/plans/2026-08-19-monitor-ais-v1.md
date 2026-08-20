@@ -821,10 +821,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ais_sightings.jsonl docs/index.html
+          git add docs/index.html
+          [ -f data/ais_sightings.jsonl ] && git add data/ais_sightings.jsonl
           git diff --cached --quiet || git commit -m "chore: atualiza dados de monitoramento"
           git push
 ```
+
+> **Nota pós-execução (2026-08-20):** a primeira execução real do workflow
+> falhou porque `data/ais_sightings.jsonl` não existe enquanto a frota
+> curada estiver vazia (`git add` de um caminho literal inexistente é
+> `fatal: pathspec ... did not match any files`, exit 128). Corrigido
+> tornando esse `git add` condicional — refletido no bloco acima.
 
 - [ ] **Step 2: Criar `README.md`**
 

@@ -33,6 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ais_sightings.jsonl docs/index.html
+          git add docs/index.html
+          [ -f data/ais_sightings.jsonl ] && git add data/ais_sightings.jsonl
           git diff --cached --quiet || git commit -m "chore: atualiza dados de monitoramento"
           git push
