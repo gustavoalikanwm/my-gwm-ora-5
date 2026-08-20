@@ -10,4 +10,15 @@ target_eta: "2026-10-31"
 #        - name: "NOME DO NAVIO"
 #          mmsi: 123456789
 #          imo: 9876543
-fleet: []
+fleet:
+  # Heroic Ace: PCTC (Vehicles Carrier) real, IMO/MMSI confirmados em
+  # multiplas fontes publicas (Wikipedia, VesselFinder, MyShipTracking,
+  # VesselTracker). Operado dentro da rede Wallenius Wilhelmsen/MOL, que
+  # atende portos brasileiros (Santos, Suape, Itaguai, Sao Francisco do Sul).
+  # RESSALVA: nao ha confirmacao publica gratuita de que este navio esteja
+  # atualmente na perna China->Brasil - escala/schedule fica atras de
+  # servico pago. Adicionado como ponto de partida da frota; revisar
+  # periodicamente (ver README).
+  - name: "HEROIC ACE"
+    mmsi: 352915000
+    imo: 9252216
