@@ -56,10 +56,10 @@ def test_render_dashboard_flags_vessel_without_recent_position():
     assert "sem posição recente" in html
 
 
-def test_render_dashboard_links_each_vessel_to_marinetraffic():
+def test_render_dashboard_links_each_vessel_to_vesselfinder_by_imo():
     html = render_dashboard(CONFIG, SIGHTINGS, NOW)
-    assert 'href="https://www.marinetraffic.com/en/ais/details/ships/mmsi:111"' in html
-    assert 'href="https://www.marinetraffic.com/en/ais/details/ships/mmsi:222"' in html
+    assert 'href="https://www.vesselfinder.com/vessels/details/1"' in html
+    assert 'href="https://www.vesselfinder.com/vessels/details/2"' in html
 
 
 def test_render_dashboard_shows_declared_destination_and_eta():

@@ -2,19 +2,105 @@
 <html lang="pt-br">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Monitor GWM ORA 05 - navios China-Brasil</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #0f172a;
+  --card: #1e293b;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+  --border: #334155;
+  --row-alt: #16213a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+main {
+  width: 100%;
+  max-width: 900px;
+}
+h1 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+}
+.subtitle {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+}
+.subtitle strong {
+  color: var(--accent);
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  white-space: nowrap;
+}
+thead th {
+  background: rgba(56, 189, 248, 0.1);
+  color: var(--accent);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+}
+tbody tr:nth-child(even) {
+  background: var(--row-alt);
+}
+tbody td {
+  border-bottom: 1px solid var(--border);
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.updated {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  text-align: right;
+}
+</style>
 </head>
 <body>
+<main>
 <h1>Monitor de navios porta-carros China &rarr; Brasil</h1>
-<p>Estimativa de chegada informada pela GWM: 2026-10-31
-(72 dias restantes)</p>
+<p class="subtitle">Estimativa de chegada informada pela GWM: 2026-10-31
+(<strong>72 dias restantes</strong>)</p>
+<div class="card">
 <table>
 <thead><tr><th>Navio</th><th>Destino declarado</th><th>ETA declarada</th><th>Última posição</th><th>Registrado em (UTC)</th></tr></thead>
 <tbody>
-<tr><td><a href="https://www.marinetraffic.com/en/ais/details/ships/mmsi:352915000" target="_blank" rel="noopener">HEROIC ACE</a></td><td>—</td><td>—</td><td colspan="2">sem posição recente</td></tr>
-<tr><td><a href="https://www.marinetraffic.com/en/ais/details/ships/mmsi:538012091" target="_blank" rel="noopener">VIKING CARINA</a></td><td>Paranagua</td><td>2026-09-10</td><td colspan="2">sem posição recente</td></tr>
+<tr><td><a href="https://www.vesselfinder.com/vessels/details/9252216" target="_blank" rel="noopener">HEROIC ACE</a></td><td>—</td><td>—</td><td colspan="2">sem posição recente</td></tr>
+<tr><td><a href="https://www.vesselfinder.com/vessels/details/9338709" target="_blank" rel="noopener">VIKING CARINA</a></td><td>Paranagua</td><td>2026-09-10</td><td colspan="2">sem posição recente</td></tr>
 </tbody>
 </table>
-<p><small>Atualizado em 2026-08-20T16:47+00:00</small></p>
+</div>
+<p class="updated">Atualizado em 2026-08-20T16:57+00:00</p>
+</main>
 </body>
 </html>
