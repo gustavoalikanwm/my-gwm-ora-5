@@ -31,6 +31,8 @@ async def collect_raw_messages(
                     raw_messages.append(json.loads(raw))
         except TimeoutError:
             pass
+        except websockets.exceptions.ConnectionClosed:
+            pass
     return raw_messages
 
 

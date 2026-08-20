@@ -32,3 +32,5 @@ fleet:
   - name: "VIKING CARINA"
     mmsi: 538012091
     imo: 9338709
+    destination: "Paranagua"
+    eta: "2026-09-10"

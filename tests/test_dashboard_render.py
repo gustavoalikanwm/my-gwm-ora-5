@@ -5,7 +5,13 @@ from monitor.dashboard_render import render_dashboard
 CONFIG = {
     "target_eta": "2026-10-31",
     "fleet": [
-        {"name": "NAVIO COM POSICAO", "mmsi": 111, "imo": 1},
+        {
+            "name": "NAVIO COM POSICAO",
+            "mmsi": 111,
+            "imo": 1,
+            "destination": "Paranagua",
+            "eta": "2026-09-10",
+        },
         {"name": "NAVIO SEM POSICAO", "mmsi": 222, "imo": 2},
     ],
 }
@@ -54,6 +60,19 @@ def test_render_dashboard_links_each_vessel_to_marinetraffic():
     html = render_dashboard(CONFIG, SIGHTINGS, NOW)
     assert 'href="https://www.marinetraffic.com/en/ais/details/ships/mmsi:111"' in html
     assert 'href="https://www.marinetraffic.com/en/ais/details/ships/mmsi:222"' in html
+
+
+def test_render_dashboard_shows_declared_destination_and_eta():
+    html = render_dashboard(CONFIG, SIGHTINGS, NOW)
+    assert "Paranagua" in html
+    assert "2026-09-10" in html
+
+
+def test_render_dashboard_shows_dash_when_no_declared_destination_or_eta():
+    html = render_dashboard(CONFIG, SIGHTINGS, NOW)
+    rows = html.split("<tr>")
+    sem_posicao_row = next(row for row in rows if "NAVIO SEM POSICAO" in row)
+    assert "<td>—</td><td>—</td>" in sem_posicao_row
 
 
 def test_render_dashboard_handles_empty_fleet():

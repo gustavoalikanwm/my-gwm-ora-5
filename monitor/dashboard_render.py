@@ -24,15 +24,19 @@ def _marinetraffic_link(vessel: dict) -> str:
 
 def _fleet_row(vessel: dict, latest_by_mmsi: dict[int, dict]) -> str:
     name_cell = _marinetraffic_link(vessel)
+    destination = vessel.get("destination") or "—"
+    eta = vessel.get("eta") or "—"
+    declared_cells = f"<td>{destination}</td><td>{eta}</td>"
+
     position = latest_by_mmsi.get(vessel["mmsi"])
     if position is None:
         return (
-            f"<tr><td>{name_cell}</td>"
+            f"<tr><td>{name_cell}</td>{declared_cells}"
             f"<td colspan=\"2\">sem posição recente</td></tr>"
         )
     coords = f"{position['latitude']:.3f}, {position['longitude']:.3f}"
     return (
-        f"<tr><td>{name_cell}</td><td>{coords}</td>"
+        f"<tr><td>{name_cell}</td>{declared_cells}<td>{coords}</td>"
         f"<td>{position['timestamp_utc']}</td></tr>"
     )
 
@@ -44,7 +48,7 @@ def render_dashboard(config: dict, sightings: list[dict], now: datetime) -> str:
     if fleet:
         rows = "\n".join(_fleet_row(vessel, latest_by_mmsi) for vessel in fleet)
     else:
-        rows = "<tr><td colspan=\"3\">frota curada vazia</td></tr>"
+        rows = "<tr><td colspan=\"5\">frota curada vazia</td></tr>"
 
     return f"""<!doctype html>
 <html lang="pt-br">
@@ -57,7 +61,7 @@ def render_dashboard(config: dict, sightings: list[dict], now: datetime) -> str:
 <p>Estimativa de chegada informada pela GWM: {config['target_eta']}
 ({days_remaining} dias restantes)</p>
 <table>
-<thead><tr><th>Navio</th><th>Última posição</th><th>Registrado em (UTC)</th></tr></thead>
+<thead><tr><th>Navio</th><th>Destino declarado</th><th>ETA declarada</th><th>Última posição</th><th>Registrado em (UTC)</th></tr></thead>
 <tbody>
 {rows}
 </tbody>
