@@ -10,6 +10,7 @@ _STYLE = """
   --accent: #38bdf8;
   --border: #334155;
   --row-alt: #16213a;
+  --highlight: #134e2a;
 }
 * { box-sizing: border-box; }
 body {
@@ -28,6 +29,10 @@ main {
 h1 {
   font-size: 1.5rem;
   margin: 0 0 0.5rem;
+}
+h2 {
+  font-size: 1.1rem;
+  margin: 2rem 0 0.5rem;
 }
 .subtitle {
   color: var(--muted);
@@ -60,6 +65,9 @@ thead th {
 }
 tbody tr:nth-child(even) {
   background: var(--row-alt);
+}
+tbody tr.na-frota {
+  background: var(--highlight);
 }
 tbody td {
   border-bottom: 1px solid var(--border);
@@ -123,7 +131,45 @@ def _fleet_row(vessel: dict, latest_by_mmsi: dict[int, dict]) -> str:
     )
 
 
-def render_dashboard(config: dict, sightings: list[dict], now: datetime) -> str:
+def _port_row(entry: dict, fleet_names: set[str]) -> str:
+    row_class = ' class="na-frota"' if entry["navio"].upper() in fleet_names else ""
+    return (
+        f"<tr{row_class}><td>{entry['navio']}</td><td>{entry['armador']}</td>"
+        f"<td>{entry['eta_utc']}</td><td>{entry['tipo_operacao']}</td></tr>"
+    )
+
+
+def _port_schedule_section(
+    port_schedule: list[dict], fleet: list[dict], now: datetime
+) -> str:
+    fleet_names = {vessel["name"].upper() for vessel in fleet}
+    now_iso = now.isoformat()
+    future_entries = sorted(
+        (e for e in port_schedule if e.get("eta_utc") and e["eta_utc"] >= now_iso),
+        key=lambda e: e["eta_utc"],
+    )
+    if not future_entries:
+        rows = (
+            '<tr><td colspan="4">sem dados de programação portuária '
+            "coletados ainda</td></tr>"
+        )
+    else:
+        rows = "\n".join(_port_row(entry, fleet_names) for entry in future_entries)
+
+    return f"""<h2>Car Carrier programados &mdash; Porto de Santos (TEV)</h2>
+<div class="card">
+<table>
+<thead><tr><th>Navio</th><th>Armador</th><th>ETA</th><th>Tipo de operação</th></tr></thead>
+<tbody>
+{rows}
+</tbody>
+</table>
+</div>"""
+
+
+def render_dashboard(
+    config: dict, sightings: list[dict], port_schedule: list[dict], now: datetime
+) -> str:
     days_remaining = _days_remaining(config["target_eta"], now.date())
     latest_by_mmsi = _latest_positions(sightings)
     fleet = config["fleet"]
@@ -131,6 +177,8 @@ def render_dashboard(config: dict, sightings: list[dict], now: datetime) -> str:
         rows = "\n".join(_fleet_row(vessel, latest_by_mmsi) for vessel in fleet)
     else:
         rows = "<tr><td colspan=\"5\">frota curada vazia</td></tr>"
+
+    port_section = _port_schedule_section(port_schedule, fleet, now)
 
     return f"""<!doctype html>
 <html lang="pt-br">
@@ -153,6 +201,7 @@ def render_dashboard(config: dict, sightings: list[dict], now: datetime) -> str:
 </tbody>
 </table>
 </div>
+{port_section}
 <p class="updated">Atualizado em {now.isoformat(timespec="minutes")}</p>
 </main>
 </body>
