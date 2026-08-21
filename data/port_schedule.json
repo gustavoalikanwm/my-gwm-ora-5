@@ -4,7 +4,7 @@
     "navio": "GOODWOOD",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-08-21T19:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -28,7 +28,7 @@
     "navio": "GOLIATH LEADER",
     "armador": "NYK LINE",
     "eta_utc": "2026-08-27T09:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
