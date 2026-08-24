@@ -1,21 +1,5 @@
 [
   {
-    "id": "26/1880",
-    "navio": "GOODWOOD",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-08-22T06:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2003",
-    "navio": "BOSPORUS HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-08-23T13:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/1884",
     "navio": "VIKING BRASILIA",
     "armador": "NYK LINE",
