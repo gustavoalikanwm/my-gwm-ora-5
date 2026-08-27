@@ -3,7 +3,7 @@
     "id": "26/1884",
     "navio": "VIKING BRASILIA",
     "armador": "NYK LINE",
-    "eta_utc": "2026-08-27T05:30:00+00:00",
+    "eta_utc": "2026-08-27T05:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -20,14 +20,14 @@
     "navio": "TARIFA",
     "armador": "WALLENIUS WILHEL",
     "eta_utc": "2026-08-29T07:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/1879",
-    "navio": "MICHIGAN HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-08-30T10:00:00+00:00",
+    "id": "26/2018",
+    "navio": "GLOVIS SUMMIT",
+    "armador": "GLS BRASIL SERVI",
+    "eta_utc": "2026-09-01T21:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -35,7 +35,15 @@
     "id": "26/1891",
     "navio": "GRANDE ABIDJAN",
     "armador": "GCN",
-    "eta_utc": "2026-08-31T11:00:00+00:00",
+    "eta_utc": "2026-09-02T04:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/1879",
+    "navio": "MICHIGAN HIGHWAY",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-09-02T08:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -43,15 +51,7 @@
     "id": "26/1883",
     "navio": "MIRACULOUS ACE",
     "armador": "MOL",
-    "eta_utc": "2026-08-31T14:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2018",
-    "navio": "GLOVIS SUMMIT",
-    "armador": "GLS BRASIL SERVI",
-    "eta_utc": "2026-09-01T09:00:00+00:00",
+    "eta_utc": "2026-09-03T00:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
