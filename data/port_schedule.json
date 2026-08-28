@@ -1,21 +1,5 @@
 [
   {
-    "id": "26/1884",
-    "navio": "VIKING BRASILIA",
-    "armador": "NYK LINE",
-    "eta_utc": "2026-08-27T05:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2019",
-    "navio": "GOLIATH LEADER",
-    "armador": "NYK LINE",
-    "eta_utc": "2026-08-27T22:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/1877",
     "navio": "TARIFA",
     "armador": "WALLENIUS WILHEL",
@@ -72,14 +56,6 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2124",
-    "navio": "TOLEDO",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-09T19:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2110",
     "navio": "BRASILIA HIGHWAY",
     "armador": "K LINE RORO & BU",
@@ -88,10 +64,18 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
+    "id": "26/2124",
+    "navio": "TOLEDO",
+    "armador": "WALLENIUS WILHEL",
+    "eta_utc": "2026-09-12T19:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2125",
     "navio": "MORNING CROWN",
     "armador": "EUKOR",
-    "eta_utc": "2026-09-12T20:00:00+00:00",
+    "eta_utc": "2026-09-13T20:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -164,6 +148,14 @@
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-10-18T15:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2281",
+    "navio": "TOLEDO",
+    "armador": "WALLENIUS WILHEL",
+    "eta_utc": "2026-10-19T19:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
