@@ -3,8 +3,16 @@
     "id": "26/1877",
     "navio": "TARIFA",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-08-29T19:30:00+00:00",
+    "eta_utc": "2026-08-30T07:30:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/1883",
+    "navio": "MIRACULOUS ACE",
+    "armador": "MOL",
+    "eta_utc": "2026-09-01T20:00:00+00:00",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -12,14 +20,6 @@
     "navio": "GLOVIS SUMMIT",
     "armador": "GLS BRASIL SERVI",
     "eta_utc": "2026-09-01T21:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/1891",
-    "navio": "GRANDE ABIDJAN",
-    "armador": "GCN",
-    "eta_utc": "2026-09-02T04:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -32,10 +32,10 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/1883",
-    "navio": "MIRACULOUS ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-09-03T00:00:00+00:00",
+    "id": "26/1891",
+    "navio": "GRANDE ABIDJAN",
+    "armador": "GCN",
+    "eta_utc": "2026-09-03T16:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
