@@ -1,10 +1,10 @@
 [
   {
-    "id": "26/1879",
-    "navio": "MICHIGAN HIGHWAY",
-    "armador": "K LINE RORO & BU",
+    "id": "26/1883",
+    "navio": "MIRACULOUS ACE",
+    "armador": "MOL",
     "eta_utc": "2026-09-02T08:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -12,14 +12,6 @@
     "navio": "GLOVIS SUMMIT",
     "armador": "GLS BRASIL SERVI",
     "eta_utc": "2026-09-02T21:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/1883",
-    "navio": "MIRACULOUS ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-09-03T01:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -32,10 +24,18 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
+    "id": "26/1879",
+    "navio": "MICHIGAN HIGHWAY",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-09-04T04:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2293",
     "navio": "PLEIADES SPIRIT",
     "armador": "MOL",
-    "eta_utc": "2026-09-04T11:00:00+00:00",
+    "eta_utc": "2026-09-04T09:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -51,8 +51,16 @@
     "id": "26/1881",
     "navio": "BOSPORUS HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-09-05T10:00:00+00:00",
+    "eta_utc": "2026-09-06T15:00:00+00:00",
     "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2332",
+    "navio": "GALAXY ACE",
+    "armador": "MOL",
+    "eta_utc": "2026-09-12T09:00:00+00:00",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -76,7 +84,7 @@
     "navio": "MORNING CROWN",
     "armador": "EUKOR",
     "eta_utc": "2026-09-13T20:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
