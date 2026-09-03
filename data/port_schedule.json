@@ -1,13 +1,5 @@
 [
   {
-    "id": "26/1883",
-    "navio": "MIRACULOUS ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-09-02T08:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2018",
     "navio": "GLOVIS SUMMIT",
     "armador": "GLS BRASIL SERVI",
@@ -28,7 +20,7 @@
     "navio": "MICHIGAN HIGHWAY",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-09-04T05:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
