@@ -3,16 +3,8 @@
     "id": "26/1881",
     "navio": "BOSPORUS HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-09-05T06:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/1879",
-    "navio": "MICHIGAN HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-09-05T06:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
+    "eta_utc": "2026-09-06T12:00:00+00:00",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
