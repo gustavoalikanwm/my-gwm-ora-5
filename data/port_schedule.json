@@ -1,33 +1,17 @@
 [
   {
-    "id": "26/1881",
-    "navio": "BOSPORUS HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-09-06T12:00:00+00:00",
-    "tipo_operacao": "--",
+    "id": "26/2125",
+    "navio": "MORNING CROWN",
+    "armador": "EUKOR",
+    "eta_utc": "2026-09-12T11:00:00+00:00",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
     "id": "26/2332",
     "navio": "GALAXY ACE",
     "armador": "MOL",
-    "eta_utc": "2026-09-12T09:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2124",
-    "navio": "TOLEDO",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-12T19:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2125",
-    "navio": "MORNING CROWN",
-    "armador": "EUKOR",
-    "eta_utc": "2026-09-13T20:00:00+00:00",
+    "eta_utc": "2026-09-13T19:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -40,18 +24,18 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2353",
-    "navio": "NEPTUNE HORIZON",
-    "armador": "NEP",
-    "eta_utc": "2026-09-15T09:00:00+00:00",
-    "tipo_operacao": "--",
+    "id": "26/2124",
+    "navio": "TOLEDO",
+    "armador": "WALLENIUS WILHEL",
+    "eta_utc": "2026-09-14T12:00:00+00:00",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2158",
-    "navio": "TORONTO",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-19T10:00:00+00:00",
+    "id": "26/2353",
+    "navio": "NEPTUNE HORIZON",
+    "armador": "NEP",
+    "eta_utc": "2026-09-17T09:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -64,6 +48,14 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
+    "id": "26/2158",
+    "navio": "TORONTO",
+    "armador": "WALLENIUS WILHEL",
+    "eta_utc": "2026-09-23T00:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2110",
     "navio": "BRASILIA HIGHWAY",
     "armador": "K LINE RORO & BU",
@@ -72,18 +64,18 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2112",
-    "navio": "GRAND VEGA",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-09-29T09:00:00+00:00",
+    "id": "26/2159",
+    "navio": "TORINO",
+    "armador": "EUKOR",
+    "eta_utc": "2026-09-28T20:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2159",
-    "navio": "TORINO",
-    "armador": "EUKOR",
-    "eta_utc": "2026-09-30T10:00:00+00:00",
+    "id": "26/2112",
+    "navio": "GRAND VEGA",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-09-29T09:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
