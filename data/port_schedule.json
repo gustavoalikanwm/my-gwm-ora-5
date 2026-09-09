@@ -40,6 +40,14 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
+    "id": "26/2359",
+    "navio": "DIGNITY LEADER",
+    "armador": "NYK LINE",
+    "eta_utc": "2026-09-19T09:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2108",
     "navio": "BOSPORUS HIGHWAY",
     "armador": "K LINE RORO & BU",
@@ -80,10 +88,10 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2161",
-    "navio": "MORNING CATHERINE",
-    "armador": "EUKOR",
-    "eta_utc": "2026-10-01T10:00:00+00:00",
+    "id": "26/2360",
+    "navio": "POLARIS LEADER",
+    "armador": "NYK LINE",
+    "eta_utc": "2026-10-03T09:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
