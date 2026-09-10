@@ -2,7 +2,7 @@
   {
     "id": "26/2125",
     "navio": "MORNING CROWN",
-    "armador": "EUKOR",
+    "armador": "WALLENIUS WILHEL",
     "eta_utc": "2026-09-12T11:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
@@ -18,9 +18,9 @@
   {
     "id": "26/2160",
     "navio": "TALIA",
-    "armador": "WALLENIUS WILHEL",
+    "armador": "EUKOR",
     "eta_utc": "2026-09-14T10:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -36,6 +36,14 @@
     "navio": "NEPTUNE HORIZON",
     "armador": "NEP",
     "eta_utc": "2026-09-17T09:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2369",
+    "navio": "HERMES LEADER",
+    "armador": "NYK",
+    "eta_utc": "2026-09-17T18:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -44,7 +52,7 @@
     "navio": "DIGNITY LEADER",
     "armador": "NYK LINE",
     "eta_utc": "2026-09-19T09:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -74,7 +82,7 @@
   {
     "id": "26/2159",
     "navio": "TORINO",
-    "armador": "EUKOR",
+    "armador": "WALLENIUS WILHEL",
     "eta_utc": "2026-09-28T20:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
@@ -84,6 +92,14 @@
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-09-29T09:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2367",
+    "navio": "GLOVIS CRYSTAL",
+    "armador": "GLS BRASIL SERVI",
+    "eta_utc": "2026-09-30T09:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
