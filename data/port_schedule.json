@@ -3,7 +3,7 @@
     "id": "26/2125",
     "navio": "MORNING CROWN",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-12T11:00:00+00:00",
+    "eta_utc": "2026-09-12T14:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -27,7 +27,7 @@
     "id": "26/2124",
     "navio": "TOLEDO",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-14T12:00:00+00:00",
+    "eta_utc": "2026-09-14T11:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -43,7 +43,7 @@
     "id": "26/2369",
     "navio": "HERMES LEADER",
     "armador": "NYK",
-    "eta_utc": "2026-09-17T18:00:00+00:00",
+    "eta_utc": "2026-09-17T21:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -51,7 +51,7 @@
     "id": "26/2359",
     "navio": "DIGNITY LEADER",
     "armador": "NYK LINE",
-    "eta_utc": "2026-09-19T09:00:00+00:00",
+    "eta_utc": "2026-09-19T07:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
