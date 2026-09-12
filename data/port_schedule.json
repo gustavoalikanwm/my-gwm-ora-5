@@ -3,7 +3,7 @@
     "id": "26/2125",
     "navio": "MORNING CROWN",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-12T14:00:00+00:00",
+    "eta_utc": "2026-09-13T08:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -11,7 +11,7 @@
     "id": "26/2332",
     "navio": "GALAXY ACE",
     "armador": "MOL",
-    "eta_utc": "2026-09-13T19:00:00+00:00",
+    "eta_utc": "2026-09-13T16:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -19,16 +19,16 @@
     "id": "26/2160",
     "navio": "TALIA",
     "armador": "EUKOR",
-    "eta_utc": "2026-09-14T10:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "eta_utc": "2026-09-14T06:00:00+00:00",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
     "id": "26/2124",
     "navio": "TOLEDO",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-14T11:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "eta_utc": "2026-09-14T08:00:00+00:00",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
