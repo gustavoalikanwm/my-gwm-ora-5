@@ -4,7 +4,7 @@
     "navio": "TALIA",
     "armador": "EUKOR",
     "eta_utc": "2026-09-14T10:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -12,7 +12,7 @@
     "navio": "TOLEDO",
     "armador": "WALLENIUS WILHEL",
     "eta_utc": "2026-09-14T11:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -27,16 +27,24 @@
     "id": "26/2369",
     "navio": "HERMES LEADER",
     "armador": "NYK",
-    "eta_utc": "2026-09-17T21:00:00+00:00",
-    "tipo_operacao": "--",
+    "eta_utc": "2026-09-18T01:00:00+00:00",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
     "id": "26/2359",
     "navio": "DIGNITY LEADER",
     "armador": "NYK LINE",
-    "eta_utc": "2026-09-19T07:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "eta_utc": "2026-09-19T03:30:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2419",
+    "navio": "UNISCOUT",
+    "armador": "ALI",
+    "eta_utc": "2026-09-19T15:00:00+00:00",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -91,7 +99,7 @@
     "id": "26/2360",
     "navio": "POLARIS LEADER",
     "armador": "NYK LINE",
-    "eta_utc": "2026-10-03T09:00:00+00:00",
+    "eta_utc": "2026-10-01T18:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -107,7 +115,7 @@
     "id": "26/2281",
     "navio": "TOLEDO",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-10-19T19:00:00+00:00",
+    "eta_utc": "2026-10-21T19:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -124,6 +132,14 @@
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-10-30T08:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2420",
+    "navio": "TORONTO",
+    "armador": "WALLENIUS WILHEL",
+    "eta_utc": "2026-10-31T08:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
