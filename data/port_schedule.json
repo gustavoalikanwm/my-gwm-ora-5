@@ -1,25 +1,9 @@
 [
   {
-    "id": "26/2160",
-    "navio": "TALIA",
-    "armador": "EUKOR",
-    "eta_utc": "2026-09-14T10:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2124",
-    "navio": "TOLEDO",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-14T11:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2353",
     "navio": "NEPTUNE HORIZON",
     "armador": "NEP",
-    "eta_utc": "2026-09-17T09:00:00+00:00",
+    "eta_utc": "2026-09-17T06:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -36,7 +20,7 @@
     "navio": "DIGNITY LEADER",
     "armador": "NYK LINE",
     "eta_utc": "2026-09-19T03:30:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -52,14 +36,14 @@
     "navio": "BOSPORUS HIGHWAY",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-09-20T04:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
     "id": "26/2158",
     "navio": "TORONTO",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-23T00:00:00+00:00",
+    "eta_utc": "2026-09-24T09:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -99,7 +83,7 @@
     "id": "26/2360",
     "navio": "POLARIS LEADER",
     "armador": "NYK LINE",
-    "eta_utc": "2026-10-01T18:00:00+00:00",
+    "eta_utc": "2026-10-02T08:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -140,6 +124,14 @@
     "navio": "TORONTO",
     "armador": "WALLENIUS WILHEL",
     "eta_utc": "2026-10-31T08:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2456",
+    "navio": "TORRENS",
+    "armador": "EUKOR",
+    "eta_utc": "2026-11-03T08:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
