@@ -1,21 +1,5 @@
 [
   {
-    "id": "26/2353",
-    "navio": "NEPTUNE HORIZON",
-    "armador": "NEP",
-    "eta_utc": "2026-09-17T06:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2369",
-    "navio": "HERMES LEADER",
-    "armador": "NYK",
-    "eta_utc": "2026-09-18T01:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2359",
     "navio": "DIGNITY LEADER",
     "armador": "NYK LINE",
@@ -28,7 +12,7 @@
     "navio": "UNISCOUT",
     "armador": "ALI",
     "eta_utc": "2026-09-19T15:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -60,7 +44,7 @@
     "navio": "TORINO",
     "armador": "WALLENIUS WILHEL",
     "eta_utc": "2026-09-28T20:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -68,7 +52,7 @@
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-09-29T09:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
