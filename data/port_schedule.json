@@ -3,7 +3,7 @@
     "id": "26/2359",
     "navio": "DIGNITY LEADER",
     "armador": "NYK LINE",
-    "eta_utc": "2026-09-19T03:30:00+00:00",
+    "eta_utc": "2026-09-19T07:30:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -19,7 +19,7 @@
     "id": "26/2108",
     "navio": "BOSPORUS HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-09-20T04:00:00+00:00",
+    "eta_utc": "2026-09-19T22:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -60,7 +60,7 @@
     "navio": "GLOVIS CRYSTAL",
     "armador": "GLS BRASIL SERVI",
     "eta_utc": "2026-09-30T09:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
