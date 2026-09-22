@@ -43,7 +43,7 @@
     "id": "26/2360",
     "navio": "POLARIS LEADER",
     "armador": "NYK LINE",
-    "eta_utc": "2026-10-02T08:00:00+00:00",
+    "eta_utc": "2026-10-03T03:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -51,7 +51,15 @@
     "id": "26/2113",
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-10-14T09:00:00+00:00",
+    "eta_utc": "2026-10-13T09:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2109",
+    "navio": "GOODWOOD",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-10-21T09:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -64,18 +72,10 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2109",
-    "navio": "GOODWOOD",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-10-23T09:00:00+00:00",
-    "tipo_operacao": "--",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2115",
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-10-30T08:00:00+00:00",
+    "eta_utc": "2026-10-27T08:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -99,7 +99,7 @@
     "id": "26/2337",
     "navio": "MICHIGAN HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-25T08:00:00+00:00",
+    "eta_utc": "2026-11-26T08:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   }
