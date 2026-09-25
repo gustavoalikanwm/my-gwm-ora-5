@@ -1,13 +1,5 @@
 [
   {
-    "id": "26/2158",
-    "navio": "TORONTO",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-09-24T09:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2110",
     "navio": "BRASILIA HIGHWAY",
     "armador": "K LINE RORO & BU",
