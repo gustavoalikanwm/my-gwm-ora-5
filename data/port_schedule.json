@@ -48,6 +48,14 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
+    "id": "26/2561",
+    "navio": "GRANDE DAKAR",
+    "armador": "GCN",
+    "eta_utc": "2026-10-09T09:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2113",
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
