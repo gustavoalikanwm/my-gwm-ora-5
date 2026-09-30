@@ -4,7 +4,7 @@
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-09-30T05:30:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -28,7 +28,7 @@
     "navio": "GLOVIS CRYSTAL",
     "armador": "GLS BRASIL SERVI",
     "eta_utc": "2026-10-01T06:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -36,7 +36,7 @@
     "navio": "GRACIOUS ACE",
     "armador": "MOL",
     "eta_utc": "2026-10-02T13:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
