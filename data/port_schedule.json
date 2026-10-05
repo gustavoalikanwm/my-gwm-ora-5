@@ -1,13 +1,5 @@
 [
   {
-    "id": "26/2360",
-    "navio": "POLARIS LEADER",
-    "armador": "NYK LINE",
-    "eta_utc": "2026-10-04T23:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2561",
     "navio": "GRANDE DAKAR",
     "armador": "GCN",
@@ -32,17 +24,17 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2609",
-    "navio": "GRACEFUL LEADER",
-    "armador": "NYK LINE",
+    "id": "26/2583",
+    "navio": "SWALLOW ACE",
+    "armador": "ROCHAMAR AGENCIA",
     "eta_utc": "2026-10-23T09:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2583",
-    "navio": "SWALLOW ACE",
-    "armador": "ROCHAMAR AGENCIA",
+    "id": "26/2609",
+    "navio": "GRACEFUL LEADER",
+    "armador": "NYK LINE",
     "eta_utc": "2026-10-23T09:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
