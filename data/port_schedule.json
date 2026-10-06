@@ -16,6 +16,22 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
+    "id": "26/2583",
+    "navio": "SWALLOW ACE",
+    "armador": "MOL",
+    "eta_utc": "2026-10-21T05:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2659",
+    "navio": "GRANDE TEMA",
+    "armador": "GCN",
+    "eta_utc": "2026-10-21T09:00:45+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2281",
     "navio": "TOLEDO",
     "armador": "WALLENIUS WILHEL",
@@ -24,19 +40,11 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2583",
-    "navio": "SWALLOW ACE",
-    "armador": "ROCHAMAR AGENCIA",
-    "eta_utc": "2026-10-23T09:00:00+00:00",
-    "tipo_operacao": "--",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2609",
     "navio": "GRACEFUL LEADER",
     "armador": "NYK LINE",
     "eta_utc": "2026-10-23T09:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -44,7 +52,7 @@
     "navio": "GOODWOOD",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-10-24T20:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -60,6 +68,14 @@
     "navio": "TORRENS",
     "armador": "EUKOR",
     "eta_utc": "2026-10-27T15:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2660",
+    "navio": "HEROIC ACE",
+    "armador": "GLS BRASIL SERVI",
+    "eta_utc": "2026-10-28T09:00:09+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
