@@ -1,25 +1,9 @@
 [
   {
-    "id": "26/2561",
-    "navio": "GRANDE DAKAR",
-    "armador": "GCN",
-    "eta_utc": "2026-10-09T04:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2113",
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-10-17T07:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2583",
-    "navio": "SWALLOW ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-10-21T05:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -29,6 +13,14 @@
     "armador": "GCN",
     "eta_utc": "2026-10-21T09:00:45+00:00",
     "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2583",
+    "navio": "SWALLOW ACE",
+    "armador": "MOL",
+    "eta_utc": "2026-10-22T02:00:00+00:00",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
