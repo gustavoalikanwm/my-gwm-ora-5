@@ -184,14 +184,6 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2706",
-    "navio": "GRAND VEGA",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-12-28T14:00:00+00:00",
-    "tipo_operacao": "--",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "27/0013",
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
