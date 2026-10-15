@@ -4,22 +4,14 @@
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-10-17T07:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
     "id": "26/2583",
     "navio": "SWALLOW ACE",
     "armador": "MOL",
-    "eta_utc": "2026-10-22T02:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2659",
-    "navio": "GRANDE TEMA",
-    "armador": "GCN",
-    "eta_utc": "2026-10-22T09:00:45+00:00",
+    "eta_utc": "2026-10-20T21:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -27,7 +19,23 @@
     "id": "26/2609",
     "navio": "GRACEFUL LEADER",
     "armador": "NYK LINE",
-    "eta_utc": "2026-10-23T09:00:00+00:00",
+    "eta_utc": "2026-10-23T23:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2659",
+    "navio": "GRANDE TEMA",
+    "armador": "GCN",
+    "eta_utc": "2026-10-24T02:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2281",
+    "navio": "TOLEDO",
+    "armador": "WALLENIUS WILHEL",
+    "eta_utc": "2026-10-25T09:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -43,15 +51,7 @@
     "id": "26/2607",
     "navio": "VIKING BRASILIA",
     "armador": "NYK LINE",
-    "eta_utc": "2026-10-25T15:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2281",
-    "navio": "TOLEDO",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-10-26T09:00:00+00:00",
+    "eta_utc": "2026-10-26T22:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -75,14 +75,14 @@
     "id": "26/2420",
     "navio": "TORONTO",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-10-31T08:00:00+00:00",
+    "eta_utc": "2026-11-01T08:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
     "id": "26/2676",
     "navio": "MARVELOUS ACE",
-    "armador": "MITSUI",
+    "armador": "MOL",
     "eta_utc": "2026-11-03T23:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
@@ -96,18 +96,18 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2569",
-    "navio": "MICHIGAN HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-10T16:00:00+00:00",
+    "id": "26/2456",
+    "navio": "TORRENS",
+    "armador": "EUKOR",
+    "eta_utc": "2026-11-09T08:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2456",
-    "navio": "TORRENS",
-    "armador": "EUKOR",
-    "eta_utc": "2026-11-11T02:00:00+00:00",
+    "id": "26/2569",
+    "navio": "MICHIGAN HIGHWAY",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-11-10T16:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
