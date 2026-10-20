@@ -3,7 +3,7 @@
     "id": "26/2583",
     "navio": "SWALLOW ACE",
     "armador": "MOL",
-    "eta_utc": "2026-10-20T22:00:00+00:00",
+    "eta_utc": "2026-10-20T07:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -52,7 +52,7 @@
     "navio": "HEROIC ACE",
     "armador": "GLS BRASIL SERVI",
     "eta_utc": "2026-10-26T09:00:09+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
