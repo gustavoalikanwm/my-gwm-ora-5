@@ -1,5 +1,13 @@
 [
   {
+    "id": "26/2659",
+    "navio": "GRANDE TEMA",
+    "armador": "GCN",
+    "eta_utc": "2026-10-25T20:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2612",
     "navio": "TORRENS",
     "armador": "EUKOR",
@@ -21,14 +29,6 @@
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-10-27T05:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2659",
-    "navio": "GRANDE TEMA",
-    "armador": "GCN",
-    "eta_utc": "2026-10-27T17:00:00+00:00",
-    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
