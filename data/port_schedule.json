@@ -1,17 +1,17 @@
 [
   {
-    "id": "26/2659",
-    "navio": "GRANDE TEMA",
-    "armador": "GCN",
-    "eta_utc": "2026-10-25T20:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "id": "26/2109",
+    "navio": "GOODWOOD",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-10-27T05:00:00+00:00",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
     "id": "26/2612",
     "navio": "TORRENS",
     "armador": "EUKOR",
-    "eta_utc": "2026-10-26T21:00:00+00:00",
+    "eta_utc": "2026-10-27T11:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -19,15 +19,7 @@
     "id": "26/2660",
     "navio": "HEROIC ACE",
     "armador": "GLS BRASIL SERVI",
-    "eta_utc": "2026-10-27T04:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2109",
-    "navio": "GOODWOOD",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-10-27T05:00:00+00:00",
+    "eta_utc": "2026-10-27T19:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -43,7 +35,7 @@
     "id": "26/2281",
     "navio": "TOLEDO",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-10-29T00:00:00+00:00",
+    "eta_utc": "2026-10-30T19:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
