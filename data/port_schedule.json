@@ -11,7 +11,7 @@
     "id": "26/2607",
     "navio": "VIKING BRASILIA",
     "armador": "NYK LINE",
-    "eta_utc": "2026-10-28T16:00:00+00:00",
+    "eta_utc": "2026-10-30T15:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -28,15 +28,7 @@
     "navio": "TORONTO",
     "armador": "WALLENIUS WILHEL",
     "eta_utc": "2026-11-03T21:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2676",
-    "navio": "MARVELOUS ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-11-03T23:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -44,6 +36,14 @@
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-11-05T20:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2676",
+    "navio": "MARVELOUS ACE",
+    "armador": "MOL",
+    "eta_utc": "2026-11-07T21:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
