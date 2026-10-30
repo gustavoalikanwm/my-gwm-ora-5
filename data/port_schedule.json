@@ -3,7 +3,7 @@
     "id": "26/2607",
     "navio": "VIKING BRASILIA",
     "armador": "NYK LINE",
-    "eta_utc": "2026-10-30T15:00:00+00:00",
+    "eta_utc": "2026-10-30T13:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -11,15 +11,7 @@
     "id": "26/2281",
     "navio": "TOLEDO",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-10-30T19:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2420",
-    "navio": "TORONTO",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-11-03T21:00:00+00:00",
+    "eta_utc": "2026-10-31T15:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -29,6 +21,14 @@
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-11-05T20:00:00+00:00",
     "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2420",
+    "navio": "TORONTO",
+    "armador": "WALLENIUS WILHEL",
+    "eta_utc": "2026-11-07T17:00:00+00:00",
+    "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -43,7 +43,15 @@
     "id": "26/2456",
     "navio": "TORRENS",
     "armador": "EUKOR",
-    "eta_utc": "2026-11-08T07:00:00+00:00",
+    "eta_utc": "2026-11-09T18:30:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2865",
+    "navio": "GRANDE ABIDJAN",
+    "armador": "GCN",
+    "eta_utc": "2026-11-11T09:00:51+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
