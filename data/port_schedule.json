@@ -1,13 +1,5 @@
 [
   {
-    "id": "26/2281",
-    "navio": "TOLEDO",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-10-31T15:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2115",
     "navio": "GRAND VEGA",
     "armador": "K LINE RORO & BU",
