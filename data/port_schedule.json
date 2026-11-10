@@ -1,25 +1,9 @@
 [
   {
-    "id": "26/2676",
-    "navio": "MARVELOUS ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-11-07T19:00:00+00:00",
-    "tipo_operacao": "Embarque/ Descarga",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2115",
-    "navio": "GRAND VEGA",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-07T21:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2420",
     "navio": "TORONTO",
     "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-11-10T09:00:00+00:00",
+    "eta_utc": "2026-11-10T07:00:00+00:00",
     "tipo_operacao": "Embarque/ Descarga",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -36,6 +20,14 @@
     "navio": "FREESIA LEADER",
     "armador": "NYK LINE",
     "eta_utc": "2026-11-11T02:00:00+00:00",
+    "tipo_operacao": "Embarque/ Descarga",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2902",
+    "navio": "MERMAID ACE",
+    "armador": "MOL",
+    "eta_utc": "2026-11-18T22:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -43,15 +35,7 @@
     "id": "26/2865",
     "navio": "GRANDE ABIDJAN",
     "armador": "GCN",
-    "eta_utc": "2026-11-16T08:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2569",
-    "navio": "MICHIGAN HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-16T16:00:00+00:00",
+    "eta_utc": "2026-11-19T19:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -59,32 +43,24 @@
     "id": "26/2611",
     "navio": "BOSPORUS HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-21T00:00:00+00:00",
-    "tipo_operacao": "--",
+    "eta_utc": "2026-11-21T10:00:00+00:00",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2902",
-    "navio": "MERMAID ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-11-21T08:00:00+00:00",
-    "tipo_operacao": "--",
+    "id": "26/2569",
+    "navio": "MICHIGAN HIGHWAY",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-11-21T11:00:00+00:00",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
     "id": "26/2670",
     "navio": "TOSCA",
     "armador": "WWL",
-    "eta_utc": "2026-11-21T11:00:00+00:00",
-    "tipo_operacao": "--",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2825",
-    "navio": "BRASILIA HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-27T04:00:00+00:00",
-    "tipo_operacao": "--",
+    "eta_utc": "2026-11-22T17:00:00+00:00",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -112,10 +88,10 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2337",
-    "navio": "MICHIGAN HIGHWAY",
+    "id": "26/2825",
+    "navio": "BRASILIA HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-29T11:00:00+00:00",
+    "eta_utc": "2026-11-29T09:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -128,10 +104,10 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2630",
+    "id": "26/2337",
     "navio": "MICHIGAN HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-12-02T10:00:00+00:00",
+    "eta_utc": "2026-12-03T13:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -147,15 +123,7 @@
     "id": "26/2705",
     "navio": "BRASILIA HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-12-10T19:00:00+00:00",
-    "tipo_operacao": "--",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2827",
-    "navio": "BRASILIA HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-12-23T16:00:00+00:00",
+    "eta_utc": "2026-12-22T06:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
