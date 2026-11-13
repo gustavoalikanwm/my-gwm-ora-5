@@ -52,7 +52,7 @@
     "navio": "HORIZON RAY",
     "armador": "GLS BRASIL SERVI",
     "eta_utc": "2026-11-28T12:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -76,7 +76,7 @@
     "navio": "POLARIS LEADER",
     "armador": "NYK LINE",
     "eta_utc": "2026-11-30T09:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
