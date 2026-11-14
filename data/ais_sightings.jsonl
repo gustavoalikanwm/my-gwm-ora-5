@@ -6,3 +6,4 @@
 {"kind": "position", "mmsi": 538012091, "ship_name": "VIKING CARINA", "latitude": -32.044149999999995, "longitude": 115.75015, "sog_knots": 0, "cog_degrees": 174, "timestamp_utc": "2026-11-03 00:05:56.912855958 +0000 UTC"}
 {"kind": "position", "mmsi": 538012091, "ship_name": "VIKING CARINA", "latitude": -32.7793, "longitude": 114.88404999999999, "sog_knots": 16, "cog_degrees": 203, "timestamp_utc": "2026-11-04 13:22:27.214247043 +0000 UTC"}
 {"kind": "position", "mmsi": 538012091, "ship_name": "VIKING CARINA", "latitude": -33.17093333333334, "longitude": 152.37465, "sog_knots": 16.4, "cog_degrees": 31, "timestamp_utc": "2026-11-13 03:46:41.201199948 +0000 UTC"}
+{"kind": "position", "mmsi": 538012091, "ship_name": "VIKING CARINA", "latitude": -27.107833333333335, "longitude": 153.7199, "sog_knots": 3.2, "cog_degrees": 159, "timestamp_utc": "2026-11-14 12:36:10.613027879 +0000 UTC"}
