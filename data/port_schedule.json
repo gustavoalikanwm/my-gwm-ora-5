@@ -1,5 +1,13 @@
 [
   {
+    "id": "26/2902",
+    "navio": "MERMAID ACE",
+    "armador": "MOL",
+    "eta_utc": "2026-11-18T22:00:00+00:00",
+    "tipo_operacao": "Embarque",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2865",
     "navio": "GRANDE ABIDJAN",
     "armador": "GCN",
@@ -24,18 +32,10 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2902",
-    "navio": "MERMAID ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-11-21T14:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2670",
     "navio": "TOSCA",
     "armador": "WWL",
-    "eta_utc": "2026-11-22T17:00:00+00:00",
+    "eta_utc": "2026-11-24T11:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -56,14 +56,6 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2872",
-    "navio": "MORNING CONDUCTOR",
-    "armador": "WALLENIUS WILHEL",
-    "eta_utc": "2026-11-28T12:00:00+00:00",
-    "tipo_operacao": "--",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2825",
     "navio": "BRASILIA HIGHWAY",
     "armador": "K LINE RORO & BU",
@@ -80,11 +72,19 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
+    "id": "26/2872",
+    "navio": "MORNING CONDUCTOR",
+    "armador": "WALLENIUS WILHEL",
+    "eta_utc": "2026-11-30T13:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
     "id": "26/2337",
     "navio": "MICHIGAN HIGHWAY",
     "armador": "K LINE RORO & BU",
     "eta_utc": "2026-12-03T13:00:00+00:00",
-    "tipo_operacao": "--",
+    "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
