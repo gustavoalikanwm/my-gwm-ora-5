@@ -1,10 +1,10 @@
 [
   {
-    "id": "26/2902",
-    "navio": "MERMAID ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-11-18T22:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "id": "26/2569",
+    "navio": "MICHIGAN HIGHWAY",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-11-18T18:50:00+00:00",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -16,19 +16,19 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2611",
-    "navio": "BOSPORUS HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-21T10:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "id": "26/2902",
+    "navio": "MERMAID ACE",
+    "armador": "MOL",
+    "eta_utc": "2026-11-21T03:01:00+00:00",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2569",
-    "navio": "MICHIGAN HIGHWAY",
+    "id": "26/2611",
+    "navio": "BOSPORUS HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-21T11:00:00+00:00",
-    "tipo_operacao": "Embarque",
+    "eta_utc": "2026-11-22T21:50:00+00:00",
+    "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
   {
@@ -56,14 +56,6 @@
     "servico": "CAR      Car Carrier - TEV"
   },
   {
-    "id": "26/2825",
-    "navio": "BRASILIA HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-29T09:00:00+00:00",
-    "tipo_operacao": "--",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
     "id": "26/2608",
     "navio": "POLARIS LEADER",
     "armador": "NYK LINE",
@@ -76,6 +68,14 @@
     "navio": "MORNING CONDUCTOR",
     "armador": "WALLENIUS WILHEL",
     "eta_utc": "2026-11-30T13:00:00+00:00",
+    "tipo_operacao": "--",
+    "servico": "CAR      Car Carrier - TEV"
+  },
+  {
+    "id": "26/2825",
+    "navio": "BRASILIA HIGHWAY",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-12-02T17:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -99,7 +99,7 @@
     "id": "26/2705",
     "navio": "BRASILIA HIGHWAY",
     "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-12-22T06:00:00+00:00",
+    "eta_utc": "2026-12-24T01:00:00+00:00",
     "tipo_operacao": "--",
     "servico": "CAR      Car Carrier - TEV"
   },
