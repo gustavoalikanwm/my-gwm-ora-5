@@ -1,9 +1,9 @@
 [
   {
-    "id": "26/2902",
-    "navio": "MERMAID ACE",
-    "armador": "MOL",
-    "eta_utc": "2026-11-20T15:00:00+00:00",
+    "id": "26/2611",
+    "navio": "BOSPORUS HIGHWAY",
+    "armador": "K LINE RORO & BU",
+    "eta_utc": "2026-11-22T21:50:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
@@ -11,15 +11,7 @@
     "id": "26/2994",
     "navio": "INTEGRADOR",
     "armador": "ROR",
-    "eta_utc": "2026-11-22T19:00:00+00:00",
-    "tipo_operacao": "Embarque",
-    "servico": "CAR      Car Carrier - TEV"
-  },
-  {
-    "id": "26/2611",
-    "navio": "BOSPORUS HIGHWAY",
-    "armador": "K LINE RORO & BU",
-    "eta_utc": "2026-11-22T21:50:00+00:00",
+    "eta_utc": "2026-11-22T23:00:00+00:00",
     "tipo_operacao": "Embarque",
     "servico": "CAR      Car Carrier - TEV"
   },
